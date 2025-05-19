@@ -1,23 +1,77 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Tessier Digital</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #050b1d;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            padding: 2rem;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            height: 50px;
+        }
+        section {
+            margin-top: 3rem;
+        }
+        .app {
+            margin: 2rem auto;
+            max-width: 500px;
+            padding: 1rem;
+            border: 1px solid #444;
+            border-radius: 10px;
+            background-color: #0a1229;
+        }
+        .app img {
+            width: 80px;
+            height: auto;
+        }
+        .app h2 {
+            margin: 0.5rem 0;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <img src="images/logo-tessier-digital.png" alt="Tessier Digital" class="logo-center">
-        <img src="images/logo-tessier-digital.png" alt="Tessier Digital" class="logo-top-right">
-    </header>
-    <section class="intro">
-        <h1>Nos projets</h1>
-        <div class="project"><img src="images/logo-athletiq.png"><h2>AthlétiQ™</h2><p>Pool sportif multiligue avec vrais joueurs amateurs et pros.</p></div>
-        <div class="project"><img src="images/logo-snowtrack.png"><h2>SnowTrack</h2><p>App GPS pour déneigement et entretien paysager avec facturation.</p></div>
-        <div class="project"><img src="images/logo-cartel21.png"><h2>Cartel 21</h2><p>Jeu mobile inspiré de Druglord avec progression par ville réelle.</p></div>
-        <div class="project"><img src="images/logo-geosnap.png"><h2>GeoSnap</h2><p>Partage de photos géolocalisées sur une carte interactive.</p></div>
-        <div class="project"><img src="images/question.png"><h2>À venir</h2><p>Un projet secret est en préparation...</p></div>
+    <img src="logo.png" alt="Logo Tessier Digital" class="logo">
+    <header>Tessier Digital</header>
+    <section>
+        <div class="app">
+            <img src="athletiq.png" alt="AthlétiQ">
+            <h2>AthlétiQ™</h2>
+            <p>Pool sportif multisport avec vraies joueurs amateurs et pros.</p>
+        </div>
+        <div class="app">
+            <img src="snowtrack.png" alt="SnowTrack">
+            <h2>SnowTrack</h2>
+            <p>App GPS pour déneigement et entretien paysager avec facturation.</p>
+        </div>
+        <div class="app">
+            <img src="cartel21.png" alt="Cartel 21">
+            <h2>Cartel 21</h2>
+            <p>Jeu mobile inspiré de Druglord avec progression par ville réelle.</p>
+        </div>
+        <div class="app">
+            <img src="geosnap.png" alt="GeoSnap">
+            <h2>GeoSnap</h2>
+            <p>Carte vivante de photos géolocalisées commentées par la communauté.</p>
+        </div>
+        <div class="app">
+            <img src="placeholder.png" alt="À venir">
+            <h2>À venir</h2>
+            <p>Prochaine application en préparation chez Tessier Digital.</p>
+        </div>
     </section>
 </body>
 </html>
